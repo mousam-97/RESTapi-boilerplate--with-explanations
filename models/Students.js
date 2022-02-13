@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 // creating a schema for Student model
 const studentSchema = mongoose.Schema({
@@ -10,6 +10,6 @@ const studentSchema = mongoose.Schema({
     type: String,
     required: true
   }
-})
+});
 
-module.exports = mongoose.model('Student', studentSchema)
+module.exports = mongoose.model('Student', studentSchema);
